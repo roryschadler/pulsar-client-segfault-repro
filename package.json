@@ -1,0 +1,16 @@
+{
+  "name": "pulsar-client-segfault-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "produce": "node produce.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pulsar-client": "^1.10.0",
+    "segfault-handler": "^1.3.0"
+  }
+}
