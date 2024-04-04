@@ -25,7 +25,8 @@ const its = Array.from({ length: NUM_ITS }, (_, i) => i);
           );
         },
       });
-      reader.close();
+      await reader.close();
+      await client.close();
     })
   );
 })();
