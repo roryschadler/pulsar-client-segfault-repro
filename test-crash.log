@@ -1,14 +1,14 @@
-PID 72619 received SIGSEGV for address: 0x10
-0   segfault-handler.node               0x00000001087c4ef8 _ZL16segfault_handleriP9__siginfoPv + 296
+PID 30764 received SIGSEGV for address: 0x10
+0   segfault-handler.node               0x00000001199ccef8 _ZL16segfault_handleriP9__siginfoPv + 296
 1   libsystem_platform.dylib            0x0000000185537584 _sigtramp + 56
-2   pulsar.node                         0x000000011ab00030 _Z19ReaderListenerProxyN4Napi3EnvENS_8FunctionEP23ReaderListenerProxyData + 92
-3   pulsar.node                         0x000000011aae2ef4 _ZN4Napi18ThreadSafeFunction6CallJSEP10napi_env__P12napi_value__PvS5_ + 84
-4   node                                0x0000000102ed6dc4 _ZN6v8impl12_GLOBAL__N_118ThreadSafeFunction7AsyncCbEP10uv_async_s + 440
-5   node                                0x00000001038d5868 uv__async_io + 268
-6   node                                0x00000001038e7940 uv__io_poll + 1020
-7   node                                0x00000001038d5e2c uv_run + 476
-8   node                                0x0000000102e39754 _ZN4node21SpinEventLoopInternalEPNS_11EnvironmentE + 256
-9   node                                0x0000000102f4663c _ZN4node16NodeMainInstance3RunEPNS_8ExitCodeEPNS_11EnvironmentE + 164
-10  node                                0x0000000102f463d8 _ZN4node16NodeMainInstance3RunEv + 124
-11  node                                0x0000000102ed1494 _ZN4node5StartEiPPc + 776
+2   pulsar.node                         0x0000000107ecd9b0 _Z19ReaderListenerProxyN4Napi3EnvENS_8FunctionEP23ReaderListenerProxyData + 92
+3   pulsar.node                         0x0000000107ead8d8 _ZN4Napi18ThreadSafeFunction6CallJSEP10napi_env__P12napi_value__PvS5_ + 68
+4   node                                0x000000010239adc4 _ZN6v8impl12_GLOBAL__N_118ThreadSafeFunction7AsyncCbEP10uv_async_s + 440
+5   node                                0x0000000102d99868 uv__async_io + 268
+6   node                                0x0000000102dab940 uv__io_poll + 1020
+7   node                                0x0000000102d99e2c uv_run + 476
+8   node                                0x00000001022fd754 _ZN4node21SpinEventLoopInternalEPNS_11EnvironmentE + 256
+9   node                                0x000000010240a63c _ZN4node16NodeMainInstance3RunEPNS_8ExitCodeEPNS_11EnvironmentE + 164
+10  node                                0x000000010240a3d8 _ZN4node16NodeMainInstance3RunEv + 124
+11  node                                0x0000000102395494 _ZN4node5StartEiPPc + 776
 12  dyld                                0x000000018517e0e0 start + 2360
